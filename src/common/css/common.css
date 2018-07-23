@@ -1,0 +1,117 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#app{
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.rowBox{
+  padding: 10px;
+ }
+.headPic{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.headPic img{
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+.hoverBoxShadow:hover{
+  box-shadow: 0 0 6px 1px #999;
+  cursor: pointer;
+}
+.countBox{
+  background: #fff;
+  margin: 20px 0;
+}
+.countBox .el-col{
+  margin: 20px 0;
+  border-right: 1px solid #ccc;
+}
+.container{
+  background: #fff;
+  padding: 20px;
+}
+.title{
+  text-align: left;
+  margin-bottom: 20px;
+}
+.tableTitle{
+  background: #eee;
+  padding: 10px;
+  margin-top: 20px;
+}
+.blue{
+  color:#409EFF;
+}
+.red{
+  color: red;
+}
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 12.5%;
+}
+.card1{
+  width: 100%;
+}
+.card p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color:rgba(0, 0, 0, 0.447058823529412);
+  width: 100%;
+
+}
+.card >p:nth-child(1){
+  color: rgba(0, 0, 0, 0.847058823529412);
+  margin-bottom: 10px;
+  /* font-weight: bold; */
+}
+.el-breadcrumb{
+  padding: 15px 24px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.picBox{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.picBox > img{
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.boxItem{
+  margin: 0 20px 20px 0;
+
+}
+.boxItem > p{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.647058823529412);
+  margin-top: 10px;
+}
