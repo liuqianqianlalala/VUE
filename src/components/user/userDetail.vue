@@ -83,6 +83,11 @@
             this.pageTotal = res.resultMsg.pageCount
           }
         })
+
+
+
+
+
       },
       handelRouter(dId){
         let userId = this.userId;
